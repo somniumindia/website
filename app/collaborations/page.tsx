@@ -15,7 +15,7 @@ export default function Collaborations() {
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2026&auto=format&fit=crop"
+                        src="images/collab-bg.jpeg"
                         alt="Global Partnerships"
                         className="w-full h-full object-cover opacity-30"
                     />
@@ -92,7 +92,7 @@ export default function Collaborations() {
                         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 relative z-10">
                             <div className="h-80 overflow-hidden">
                                 <img
-                                    src="https://lh3.google.com/u/0/d/1C-mK_LpW9zkqxRD1BqqfjaveY1v_CKVS=w1227-h892-iv1?auditContext=prefetch"
+                                    src="images/eriez.jpg"
                                     alt="Industrial Separation Equipment"
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                 />
@@ -101,9 +101,6 @@ export default function Collaborations() {
                                     <h3 className="text-3xl font-bold tracking-tight">ERIEZ</h3>
                                     <p className="text-orange-200 font-medium">Separation Technologies</p>
                                 </div>
-                            </div>
-                            <div className="p-8 bg-slate-50">
-                                <p className="text-sm text-gray-500 italic">"Global leader in separation technologies"</p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +143,7 @@ export default function Collaborations() {
                         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 relative z-10">
                             <div className="h-80 overflow-hidden">
                                 <img
-                                    src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=2070&auto=format&fit=crop"
+                                    src="images/disa.jpg"
                                     alt="HPSA Technology"
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                 />
@@ -156,9 +153,6 @@ export default function Collaborations() {
                                     <p className="text-teal-200 font-medium">HPSA Technology</p>
                                 </div>
                             </div>
-                            <div className="p-8 bg-slate-50">
-                                <p className="text-sm text-gray-500 italic">"Revolutionizing mineral liberation"</p>
-                            </div>
                         </div>
                     </div>
 
@@ -166,7 +160,7 @@ export default function Collaborations() {
                         <div className="inline-block px-3 py-1 bg-teal-50 text-[#107b9d] rounded-full text-sm font-semibold mb-4">Technology Partner</div>
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">High Pressure Slurry Ablation (HPSA)</h2>
                         <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                            Our collaboration with <strong>DISA LLC (USA)</strong> introduces the groundbreaking High Pressure Slurry Ablation (HPSA) technology. This advanced attrition capabilities significantly enhance mineral liberation compared to conventional grinding.
+                            Our collaboration with <strong>DISA (USA)</strong> introduces the groundbreaking High Pressure Slurry Ablation (HPSA) technology. This advanced attrition capabilities significantly enhance mineral liberation compared to conventional grinding.
                         </p>
                         <ul className="space-y-3 mb-8">
                             <li className="flex items-start gap-3">

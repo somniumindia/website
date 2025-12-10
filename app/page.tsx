@@ -77,17 +77,17 @@ export default function Home() {
     const industriesPreview = [
         {
             title: "Mining & Processing",
-            image: "https://lh3.google.com/u/0/d/1C-mK_LpW9zkqxRD1BqqfjaveY1v_CKVS=w1227-h892-iv1?auditContext=prefetch",
+            image: "images/mandp.jpg",
             icon: Pickaxe
         },
         {
             title: "Metallurgy & Smelting",
-            image: "https://lh3.google.com/u/0/d/16OF11UEvkh7djpkKlzfwNL-BZ1ANOsWt=w1227-h892-iv1?auditContext=prefetch",
+            image: "images/mands.jpg",
             icon: Factory
         },
         {
             title: "ESG",
-            image: "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?fit=crop&w=800&q=80",
+            image: "images/env.jpg",
             icon: Leaf,
         }
     ];
@@ -98,7 +98,7 @@ export default function Home() {
             <section ref={heroRef} className="relative h-[700px] w-full flex items-center justify-center overflow-hidden bg-slate-900">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://photos.fife.usercontent.google.com/pw/AP1GczMj-nCOJkAA5iiey7uaWxd7oh07TcjJb-AWBivfAt--dtwf_3hfpSU=w778-h519-s-no-gm?authuser=1"
+                        src="images/home.jpg"
                         alt="Mining Operation"
                         className="w-full h-full object-cover scale-110"
                     />
@@ -324,7 +324,7 @@ export default function Home() {
                         >
                             <div className="relative z-10">
                                 <img
-                                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                                    src="images/management-consulting.jpg"
                                     alt="Data Analytics in Mining"
                                     className="rounded-2xl shadow-2xl border-2 border-white/10 hover:scale-[1.02] transition-transform duration-500 max-h-[500px] object-cover"
                                 />

@@ -14,7 +14,7 @@ export default function Industries() {
             icon: Pickaxe,
             color: "bg-stone-100",
             textColor: "text-stone-600",
-            image: "https://lh3.google.com/u/0/d/1C-mK_LpW9zkqxRD1BqqfjaveY1v_CKVS=w1227-h892-iv1?auditContext=prefetch"
+            image: "images/mandp.jpg"
         },
         {
             name: "Raw Material Handling",
@@ -22,7 +22,7 @@ export default function Industries() {
             icon: Truck,
             color: "bg-blue-50",
             textColor: "text-blue-600",
-            image: "https://lh3.google.com/u/0/d/1JKtggmL7rudjVRp4iWE6STG30qluFW-i=w1227-h892-iv1?auditContext=prefetch"
+            image: "images/rmh.jpg"
         },
         {
             name: "Metallurgy & Smelting",
@@ -30,7 +30,7 @@ export default function Industries() {
             icon: Factory,
             color: "bg-orange-50",
             textColor: "text-[#e38e26]",
-            image: "https://lh3.google.com/u/0/d/16OF11UEvkh7djpkKlzfwNL-BZ1ANOsWt=w1227-h892-iv1?auditContext=prefetch"
+            image: "images/mands.jpg"
         },
         {
             name: "Power Plant",
@@ -38,7 +38,7 @@ export default function Industries() {
             icon: Zap,
             color: "bg-yellow-50",
             textColor: "text-yellow-600",
-            image: "https://lh3.google.com/u/0/d/1G9LjUYzmuoQESaQU1sumjX3DE90Nzkvd=w1227-h892-iv1?auditContext=prefetch"
+            image: "images/pp.jpg"
         },
         {
             name: "ESG",
@@ -46,7 +46,7 @@ export default function Industries() {
             icon: Leaf,
             color: "bg-green-50",
             textColor: "text-green-600",
-            image: "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?fit=crop&w=800&q=80"
+            image: "images/env.jpg"
         },
         {
             name: "Specialized Commodities",
@@ -54,7 +54,7 @@ export default function Industries() {
             icon: Gem,
             color: "bg-teal-50",
             textColor: "text-[#107b9d]",
-            image: "https://lh3.google.com/u/0/d/1ZMTyBejBGTNm1Mfhf0L-vnRwseVv5pzO=w1227-h892-iv1?auditContext=prefetch"
+            image: "images/sc.jpg"
         }
     ];
 

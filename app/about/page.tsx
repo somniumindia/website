@@ -54,21 +54,21 @@ export default function About() {
             name: 'Abhishek Shukla',
             role: 'Director',
             bio: 'IIT Graduate with 20+ years of experience in the mineral processing industry, covering plant operations, process design, and equipment selection for coal and iron ore. Successfully established and scaled two multinational companies in India. Proven ability to blend technical expertise with strategic business leadership.',
-            imageUrl: "https://lh3.google.com/u/0/d/1nwZjhXKK9ZamoVhKSb4jjIjCP4UiEqnM=w1227-h892-iv1?auditContext=prefetch"
+            imageUrl: "/images/abhishek-shukla.jpeg"
         },
         {
             id: '2',
             name: 'Priyank Gupta',
             role: 'Head Consulting',
             bio: 'IIT Graduate & MS (USA). 20+ years of industrial and management consulting experience including sales, technology operations, and maintenance. Focused on Metals, Mining, and Automobile sectors. Expert in driving market growth and operational efficiency.',
-            imageUrl: "https://lh3.google.com/u/0/d/1FZ1OitNY-uPdEmbCkt08L5fshKRNknse=w1227-h892-iv1?auditContext=prefetch"
+            imageUrl: "/images/priyank-gupta.jpg"
         },
         {
             id: '3',
             name: 'Ankur Kumar',
             role: 'Head, Process Solutions & Market Development',
             bio: 'IIT Graduate with 15+ years of experience in coal and mineral beneficiation. Led 20+ major beneficiation projects across India. Proficient in Heavy Media Cyclones, Ball mill, Jigs, Spirals, Flotation, Screening, Crushing, and plant process integration. Expert in process calculations, yield estimation, material balances, and techno-commercial support.',
-            imageUrl: "https://lh3.google.com/u/0/d/1eAOnmnOutfvie4DAUMgW2Bi_kPDr26Sg=w1227-h892-iv1?auditContext=prefetch"
+            imageUrl: "/images/ankur-kumar.jpg"
         }
     ];
 

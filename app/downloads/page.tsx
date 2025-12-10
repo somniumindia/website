@@ -17,14 +17,14 @@ export default function Downloads() {
     // Option 1 (Local): Put file in 'public' folder and use "/filename.pdf"
     // Option 2 (External): Use full URL "https://example.com/file.pdf"
     // ---------------------------------------------------------
-    const BROCHURE_LINK = "/somnium_brochure.pdf";
+    const BROCHURE_LINK = "/files/brocheure.pdf";
 
     // Simplified list - just the company brochure
     const item: DownloadItem = {
         id: '1',
         title: "Somnium Corporate Brochure",
         type: "PDF",
-        size: "2.4 MB"
+        size: "22 MB"
     };
 
     const handleDownload = () => {
@@ -36,9 +36,9 @@ export default function Downloads() {
 
             // Trigger download
             const link = document.createElement('a');
-            link.href = 'https://drive.google.com/file/d/1DT6i3l1GeRrFXyVC5erVLyejK1TWiyAN/view';
+            link.href = BROCHURE_LINK;
             // The 'download' attribute suggests a filename to the browser
-            link.setAttribute('download', 'Somnium_Management_Consulting_Profile.pdf');
+            link.setAttribute('download', 'Somnium_Corporate_Brochure.pdf');
             // Target blank ensures that if the browser tries to open it (instead of download), it opens in a new tab
             link.setAttribute('target', '_blank');
             document.body.appendChild(link);

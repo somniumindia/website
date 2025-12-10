@@ -23,7 +23,7 @@ export default function Services() {
                 "Technology Selection for Beneficiation",
                 "CAPEX and OPEX Costing"
             ],
-            image: "https://lh3.google.com/u/0/d/1IR-sYXUsyHrpm-VmYcaN4X6i__wMaUnB=w1227-h892-iv1?auditContext=prefetch",
+            image: "images/pts.jpg",
             imageCaption: "Strategic Foundation & Feasibility"
         },
         {
@@ -40,7 +40,7 @@ export default function Services() {
                 "Construction Supervision",
                 "Quality Assurance & Control (QA/QC)"
             ],
-            image: "https://lh3.google.com/u/0/d/16o9gb5FtrEYUyjALQGksrILfTTm83tWi=w1227-h892-iv1?auditContext=prefetch",
+            image: "images/de.jpg",
             imageCaption: "Building with Precision & Safety"
         },
         {
@@ -57,7 +57,7 @@ export default function Services() {
                 "Cost Reduction Strategies",
                 "Preventive Maintenance Planning"
             ],
-            image: "https://lh3.google.com/u/0/d/12BT9A3ImUpVRA6yHcPICfm9rUR_cV07D=w1227-h892-iv1?auditContext=prefetch",
+            image: "images/do.jpg",
             imageCaption: "Operational Excellence & Efficiency"
         },
         {
@@ -74,7 +74,7 @@ export default function Services() {
                 "Financial Modeling & Sensitivity Analysis",
                 "Asset Optimization & Dashboard Preparation"
             ],
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?fit=crop&w=800&q=80",
+            image: "images/mcd.jpeg",
             imageCaption: "Data-Driven Business Growth"
         }
     ];

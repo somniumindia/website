@@ -17,7 +17,7 @@ export default function AIAutomation() {
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-slate-900/40 z-10"></div>
                     <img
-                        src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop"
+                        src="images/ai-bg.jpeg"
                         alt="AI & Automation"
                         className="w-full h-full object-cover"
                     />
@@ -104,7 +104,7 @@ export default function AIAutomation() {
                         <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-500 blur-3xl opacity-20 -z-10 rounded-full"></div>
                         <div className="bg-slate-800 border border-slate-700 rounded-2xl p-2 shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                                src="images/ai-lab.jpeg"
                                 alt="Data Visualization"
                                 className="rounded-xl w-full"
                             />
