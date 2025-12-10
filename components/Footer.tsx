@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Mail, MapPin, Linkedin } from 'lucide-react';
+import { FooterLogo } from './FooterLogo';
 
 export const Footer: React.FC = () => {
     // ---------------------------------------------------------
@@ -15,22 +16,7 @@ export const Footer: React.FC = () => {
 
                     {/* Company Info - Takes 4/12 columns on large screens */}
                     <div className="col-span-1 lg:col-span-4">
-                        <Link href="/" className="inline-block mb-6 bg-white p-3 rounded-lg max-w-[200px]">
-                            <img
-                                src="logo.png"
-                                alt="Somnium Management Consulting Pvt. Ltd."
-                                className="w-full h-auto"
-                                onError={(e) => {
-                                    e.currentTarget.parentElement!.style.display = 'none';
-                                    e.currentTarget.parentElement!.nextElementSibling!.classList.remove('hidden');
-                                }}
-                            />
-                        </Link>
-                        {/* Fallback Text if image fails */}
-                        <div className="hidden mb-6">
-                            <h3 className="text-2xl font-bold text-white tracking-tight">SOMNIUM</h3>
-                            <p className="text-[10px] text-[#e38e26] font-bold uppercase tracking-widest mt-1">Management Consulting Pvt. Ltd.</p>
-                        </div>
+                        <FooterLogo />
 
                         <p className="text-gray-400 text-sm mb-6 leading-relaxed pr-0 lg:pr-8">
                             Engineering Innovation with Environmental Stewardship. We are your partner in mineral processing, delivering sustainable solutions for efficiency and enduring prosperity.

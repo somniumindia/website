@@ -8,7 +8,7 @@ import { Menu, X, Download } from 'lucide-react';
 // ----------------------------------------------------------------------
 // UPDATE YOUR LOGO URL HERE
 // ----------------------------------------------------------------------
-const LOGO_URL = "https://photos.app.goo.gl/QFjLdT9jwVnyoTtHA";
+const LOGO_URL = "/images/logo.png";
 
 export const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -59,8 +59,8 @@ export const Navbar: React.FC = () => {
                                 key={link.name}
                                 href={link.path}
                                 className={`text-sm font-medium transition-colors duration-200 ${isActive(link.path)
-                                        ? 'text-[#e38e26] border-b-2 border-[#e38e26]'
-                                        : 'text-gray-700 hover:text-[#107b9d]'
+                                    ? 'text-[#e38e26] border-b-2 border-[#e38e26]'
+                                    : 'text-gray-700 hover:text-[#107b9d]'
                                     }`}
                             >
                                 {link.name}
@@ -97,8 +97,8 @@ export const Navbar: React.FC = () => {
                                 href={link.path}
                                 onClick={() => setIsOpen(false)}
                                 className={`block px-3 py-2 rounded-md text-base font-medium ${isActive(link.path)
-                                        ? 'text-[#e38e26] bg-orange-50'
-                                        : 'text-gray-700 hover:text-[#107b9d] hover:bg-gray-50'
+                                    ? 'text-[#e38e26] bg-orange-50'
+                                    : 'text-gray-700 hover:text-[#107b9d] hover:bg-gray-50'
                                     }`}
                             >
                                 {link.name}
