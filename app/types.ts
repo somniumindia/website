@@ -1,9 +1,3 @@
-export interface LucideIcon {
-    (props: React.SVGProps<SVGSVGElement>): JSX.Element;
-}
-// Note: importing LucideIcon type from lucide-react directly in files is better, 
-// but here we just export the interfaces as requested. 
-// Actually the original file imported LucideIcon. 
 import { LucideIcon } from 'lucide-react';
 
 export interface ServiceItem {
