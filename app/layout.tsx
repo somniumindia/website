@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={`${montserrat.variable} ${openSans.variable} font-sans flex flex-col min-h-screen`}>
+            <body className={`${montserrat.variable} ${openSans.variable} font-sans flex flex-col min-h-screen`} suppressHydrationWarning={true}>
                 <Navbar />
                 <main className="flex-grow">
                     {children}
