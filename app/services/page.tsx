@@ -57,7 +57,7 @@ export default function Services() {
                 "Cost Reduction Strategies",
                 "Preventive Maintenance Planning"
             ],
-            image: "images/do.jpg",
+            image: "images/during-operation.jpg",
             imageCaption: "Operational Excellence & Efficiency"
         },
         {
