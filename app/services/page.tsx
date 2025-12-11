@@ -23,7 +23,7 @@ export default function Services() {
                 "Technology Selection for Beneficiation",
                 "CAPEX and OPEX Costing"
             ],
-            image: "/images/pts.jpg",
+            image: "images/pts.jpg",
             imageCaption: "Strategic Foundation & Feasibility"
         },
         {
@@ -40,7 +40,7 @@ export default function Services() {
                 "Construction Supervision",
                 "Quality Assurance & Control (QA/QC)"
             ],
-            image: "/images/de.jpg",
+            image: "images/de.jpg",
             imageCaption: "Building with Precision & Safety"
         },
         {
@@ -57,7 +57,7 @@ export default function Services() {
                 "Cost Reduction Strategies",
                 "Preventive Maintenance Planning"
             ],
-            image: "/images/do.jpg",
+            image: "images/do.jpg",
             imageCaption: "Operational Excellence & Efficiency"
         },
         {
