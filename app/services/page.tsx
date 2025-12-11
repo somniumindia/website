@@ -40,7 +40,7 @@ export default function Services() {
                 "Construction Supervision",
                 "Quality Assurance & Control (QA/QC)"
             ],
-            image: "images/de.jpg",
+            image: "images/during-execution.jpg",
             imageCaption: "Building with Precision & Safety"
         },
         {
