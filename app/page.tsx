@@ -77,17 +77,17 @@ export default function Home() {
     const industriesPreview = [
         {
             title: "Mining & Processing",
-            image: "images/mandp.jpg",
+            image: "/images/mandp.jpg",
             icon: Pickaxe
         },
         {
             title: "Metallurgy & Smelting",
-            image: "images/mands.jpg",
+            image: "/images/mands.jpg",
             icon: Factory
         },
         {
             title: "ESG",
-            image: "images/env.jpg",
+            image: "/images/env.jpg",
             icon: Leaf,
         }
     ];
@@ -98,7 +98,7 @@ export default function Home() {
             <section ref={heroRef} className="relative h-[700px] w-full flex items-center justify-center overflow-hidden bg-slate-900">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="images/home.jpg"
+                        src="/images/home.jpg"
                         alt="Mining Operation"
                         className="w-full h-full object-cover scale-110"
                     />
@@ -324,7 +324,7 @@ export default function Home() {
                         >
                             <div className="relative z-10">
                                 <img
-                                    src="images/management-consulting.jpg"
+                                    src="/images/management-consulting.jpg"
                                     alt="Data Analytics in Mining"
                                     className="rounded-2xl shadow-2xl border-2 border-white/10 hover:scale-[1.02] transition-transform duration-500 max-h-[500px] object-cover"
                                 />

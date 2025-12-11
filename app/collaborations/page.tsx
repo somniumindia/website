@@ -15,7 +15,7 @@ export default function Collaborations() {
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="images/collab-bg.jpeg"
+                        src="/images/collab-bg.jpeg"
                         alt="Global Partnerships"
                         className="w-full h-full object-cover opacity-30"
                     />
@@ -92,7 +92,7 @@ export default function Collaborations() {
                         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 relative z-10">
                             <div className="h-80 overflow-hidden">
                                 <img
-                                    src="images/eriez.jpg"
+                                    src="/images/eriez.jpg"
                                     alt="Industrial Separation Equipment"
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                 />
@@ -143,7 +143,7 @@ export default function Collaborations() {
                         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 relative z-10">
                             <div className="h-80 overflow-hidden">
                                 <img
-                                    src="images/disa.jpg"
+                                    src="/images/disa.jpg"
                                     alt="HPSA Technology"
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                 />

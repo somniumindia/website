@@ -14,7 +14,7 @@ export default function Industries() {
             icon: Pickaxe,
             color: "bg-stone-100",
             textColor: "text-stone-600",
-            image: "images/mandp.jpg"
+            imageUrl: "/images/mandp.jpg"
         },
         {
             name: "Raw Material Handling",
@@ -22,7 +22,7 @@ export default function Industries() {
             icon: Truck,
             color: "bg-blue-50",
             textColor: "text-blue-600",
-            image: "images/rmh.jpg"
+            imageUrl: "/images/rmh.jpg"
         },
         {
             name: "Metallurgy & Smelting",
@@ -30,7 +30,7 @@ export default function Industries() {
             icon: Factory,
             color: "bg-orange-50",
             textColor: "text-[#e38e26]",
-            image: "images/mands.jpg"
+            imageUrl: "/images/mands.jpg"
         },
         {
             name: "Power Plant",
@@ -38,7 +38,7 @@ export default function Industries() {
             icon: Zap,
             color: "bg-yellow-50",
             textColor: "text-yellow-600",
-            image: "images/pp.jpg"
+            imageUrl: "/images/pp.jpg"
         },
         {
             name: "ESG",
@@ -46,7 +46,7 @@ export default function Industries() {
             icon: Leaf,
             color: "bg-green-50",
             textColor: "text-green-600",
-            image: "images/env.jpg"
+            imageUrl: "/images/env.jpg"
         },
         {
             name: "Specialized Commodities",
@@ -54,7 +54,7 @@ export default function Industries() {
             icon: Gem,
             color: "bg-teal-50",
             textColor: "text-[#107b9d]",
-            image: "images/sc.jpg"
+            imageUrl: "/images/sc.jpg"
         }
     ];
 
@@ -125,7 +125,7 @@ export default function Industries() {
                             className="group relative rounded-2xl overflow-hidden shadow-xl h-full flex flex-col"
                         >
                             <div className="h-64 overflow-hidden shrink-0">
-                                <img src={ind.image} alt={ind.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                                <img src={ind.imageUrl} alt={ind.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                                 <div className="absolute inset-0 bg-slate-900/60 group-hover:bg-slate-900/50 transition-colors"></div>
                             </div>
 
