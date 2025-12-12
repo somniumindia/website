@@ -36,7 +36,7 @@ export const Navbar: React.FC = () => {
                             <img
                                 src={LOGO_URL}
                                 alt="Somnium Management Consulting"
-                                className="h-10 md:h-12 w-auto object-contain"
+                                className="h-12 md:h-14 w-auto object-contain"
                                 onError={(e) => {
                                     // Fallback if image is missing
                                     e.currentTarget.style.display = 'none';

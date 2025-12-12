@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { motion as motionOriginal } from 'framer-motion';
-import { Cpu, Activity, FlaskConical, BarChart4, Network, ArrowRight } from 'lucide-react';
+import { Activity, FlaskConical, BarChart4, Network, ArrowRight } from 'lucide-react';
 import { Button } from '../../components/Button';
 import Link from 'next/link';
 
@@ -31,10 +31,7 @@ export default function AIAutomation() {
                         transition={{ duration: 0.8 }}
                         className="max-w-3xl"
                     >
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded border border-teal-500/50 bg-teal-500/10 text-teal-400 text-sm font-mono mb-6">
-                            <Cpu size={14} />
-                            <span>INDUSTRY 4.0</span>
-                        </div>
+
                         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white leading-tight">
                             Process <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400">Automation & AI</span>
@@ -43,9 +40,7 @@ export default function AIAutomation() {
                             Reducing the reliance on physical lab tests through advanced digital simulation. We bridge the gap between physical operations and digital intelligence.
                         </p>
                         <div className="flex flex-wrap gap-4">
-                            <Link href="/contact">
-                                <Button variant="secondary" className="bg-teal-600 hover:bg-teal-500 border-none">Deploy Digital Solutions</Button>
-                            </Link>
+                            <Button href="/contact" variant="secondary" className="bg-teal-600 hover:bg-teal-500 border-none">Deploy Digital Solutions</Button>
                         </div>
                     </motion.div>
                 </div>
@@ -111,7 +106,7 @@ export default function AIAutomation() {
                             <div className="grid grid-cols-2 gap-2 mt-2">
                                 <div className="bg-slate-900 p-4 rounded-lg border border-slate-700 text-center">
                                     <p className="text-xs text-gray-500 uppercase tracking-widest mb-1">Testing Time</p>
-                                    <p className="text-xl md:text-2xl font-bold text-red-400 line-through decoration-white/30 decoration-1">High Latency</p>
+                                    <p className="text-xl md:text-2xl font-bold text-red-400 line-through decoration-white/400 decoration-2">High Latency</p>
                                     <p className="text-sm text-gray-400">Physical Lab</p>
                                 </div>
                                 <div className="bg-slate-900 p-4 rounded-lg border border-teal-500/30 text-center relative overflow-hidden">

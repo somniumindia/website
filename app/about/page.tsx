@@ -60,7 +60,7 @@ export default function About() {
             id: '2',
             name: 'Priyank Gupta',
             role: 'Head Consulting',
-            bio: 'IIT Graduate & MS (USA). 20+ years of industrial and management consulting experience including sales, technology operations, and maintenance. Focused on Metals, Mining, and Automobile sectors. Expert in driving market growth and operational efficiency.',
+            bio: 'IIT Graduate & MS (USA). 20+ years of industrial and management consulting experience including sales, strategy, procurement, operations. Worked with firms like McKinsey & Company, Bain & Company, Sandvik Asia, Metso minerals and Tata Steel. Expert in driving market growth and operational efficiency.',
             imageUrl: "/images/priyank-gupta.jpg"
         },
         {

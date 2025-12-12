@@ -17,7 +17,7 @@ export default function Downloads() {
     // Option 1 (Local): Put file in 'public' folder and use "/filename.pdf"
     // Option 2 (External): Use full URL "https://example.com/file.pdf"
     // ---------------------------------------------------------
-    const BROCHURE_LINK = "/files/brocheure.pdf";
+    const BROCHURE_LINK = "/files/brochure.pdf";
 
     // Simplified list - just the company brochure
     const item: DownloadItem = {

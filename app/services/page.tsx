@@ -167,9 +167,9 @@ export default function Services() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className={`flex flex-col ${index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-12 items-stretch`}
+                        className={`flex flex-col-reverse ${index % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} gap-8 md:gap-12 items-stretch`}
                     >
-                        <div className="flex-1 flex flex-col justify-center w-full py-4">
+                        <div className="flex-1 flex flex-col justify-center w-full md:w-auto py-4">
                             <div className="flex items-center gap-4 mb-4">
                                 <div className="p-4 bg-gradient-to-br from-orange-100 to-white rounded-xl shadow-sm border border-orange-100">
                                     <service.icon className="text-[#e38e26]" size={36} />
@@ -194,7 +194,7 @@ export default function Services() {
                             </div>
                         </div>
 
-                        <div className="flex-1 w-full lg:min-h-[550px] min-h-[400px]">
+                        <div className="w-full md:w-auto h-[400px] md:h-auto md:min-h-[400px] md:flex-1">
                             <div className="w-full h-full bg-white rounded-2xl shadow-xl overflow-hidden relative group">
                                 <img
                                     src={service.image}

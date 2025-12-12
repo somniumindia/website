@@ -143,7 +143,7 @@ export default function Collaborations() {
                         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 relative z-10">
                             <div className="h-80 overflow-hidden">
                                 <img
-                                    src="/images/disa.jpg"
+                                    src="/images/disa.jpeg"
                                     alt="HPSA Technology"
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                 />

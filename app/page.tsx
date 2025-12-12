@@ -131,14 +131,10 @@ export default function Home() {
                         transition={{ duration: 0.8, delay: 0.7 }}
                         className="flex flex-col sm:flex-row gap-6 justify-center"
                     >
-                        <Link href="/contact">
-                            <Button variant="primary" className="text-lg px-10 py-4 shadow-[0_0_30px_-5px_rgba(227,142,38,0.5)] hover:shadow-[0_0_40px_-5px_rgba(227,142,38,0.7)] hover:-translate-y-1 transition-all duration-300">Discuss Your Project</Button>
-                        </Link>
-                        <Link href="/services">
-                            <Button variant="outline" className="text-white border-white hover:bg-[#107b9d] hover:border-[#107b9d] hover:text-white text-lg px-10 py-4 hover:-translate-y-1 transition-all duration-300 backdrop-blur-sm bg-white/5">
-                                Explore Services
-                            </Button>
-                        </Link>
+                        <Button href="/contact" variant="primary" className="text-lg px-10 py-4 shadow-[0_0_30px_-5px_rgba(227,142,38,0.5)] hover:shadow-[0_0_40px_-5px_rgba(227,142,38,0.7)] hover:-translate-y-1 transition-all duration-300">Discuss Your Project</Button>
+                        <Button href="/services" variant="outline" className="text-white border-white hover:bg-[#107b9d] hover:border-[#107b9d] hover:text-white text-lg px-10 py-4 hover:-translate-y-1 transition-all duration-300 backdrop-blur-sm bg-white/5">
+                            Explore Services
+                        </Button>
                     </motion.div>
                 </div>
             </section>
@@ -257,9 +253,7 @@ export default function Home() {
                     </div>
 
                     <div className="text-center mt-16">
-                        <Link href="/industries">
-                            <Button variant="secondary" className="px-10 py-4 text-lg hover:shadow-xl hover:-translate-y-1">View All Industries</Button>
-                        </Link>
+                        <Button href="/industries" variant="secondary" className="px-10 py-4 text-lg hover:shadow-xl hover:-translate-y-1">View All Industries</Button>
                     </div>
                 </div>
             </section>
@@ -309,9 +303,7 @@ export default function Home() {
                             </div>
 
                             <div className="mt-14">
-                                <Link href="/contact">
-                                    <Button variant="primary" className="text-lg px-8 py-4">Start Your Diagnostic</Button>
-                                </Link>
+                                <Button href="/contact" variant="primary" className="text-lg px-8 py-4">Start Your Diagnostic</Button>
                             </div>
                         </motion.div>
 
@@ -370,9 +362,7 @@ export default function Home() {
                     >
                         Schedule a consultation with our experts today to discuss your project requirements.
                     </motion.p>
-                    <Link href="/contact">
-                        <Button variant="primary" className="mx-auto text-xl shadow-2xl px-12 py-5 hover:bg-white hover:text-[#e38e26] transition-colors duration-300">Schedule a Dialogue</Button>
-                    </Link>
+                    <Button href="/contact" variant="primary" className="mx-auto text-xl shadow-2xl px-12 py-5 hover:bg-white hover:text-[#e38e26] transition-colors duration-300">Schedule a Dialogue</Button>
                 </div>
             </section>
         </div>

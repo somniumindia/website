@@ -17,8 +17,48 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-    title: 'Somnium Management Consulting',
-    description: 'Engineering Innovation with Environmental Stewardship',
+    metadataBase: new URL('https://somnium.india'),
+    title: {
+        default: 'Somnium Management Consulting',
+        template: '%s | Somnium Management Consulting',
+    },
+    description: 'Engineering Innovation with Environmental Stewardship. Somnium India leads in sustainable management consulting and AI automation solutions.',
+    keywords: ['Management Consulting', 'Sustainable Engineering', 'AI Automation', 'Environmental Stewardship', 'India Consulting', 'Business Strategy'],
+    authors: [{ name: 'Somnium Management Consulting' }],
+    creator: 'Somnium Management Consulting',
+    openGraph: {
+        type: 'website',
+        locale: 'en_US',
+        url: 'https://somnium.india',
+        siteName: 'Somnium Management Consulting',
+        title: 'Somnium Management Consulting',
+        description: 'Engineering Innovation with Environmental Stewardship',
+        images: [
+            {
+                url: '/og-image.jpg', // Ensure this image exists or is added later
+                width: 1200,
+                height: 630,
+                alt: 'Somnium Management Consulting',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Somnium Management Consulting',
+        description: 'Engineering Innovation with Environmental Stewardship',
+        images: ['/twitter-image.jpg'], // Ensure this image exists or is added later
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
 };
 
 export default function RootLayout({

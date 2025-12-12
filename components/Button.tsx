@@ -1,8 +1,10 @@
 import React from 'react';
+import Link from 'next/link';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     variant?: 'primary' | 'secondary' | 'outline';
     fullWidth?: boolean;
+    href?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -10,6 +12,7 @@ export const Button: React.FC<ButtonProps> = ({
     variant = 'primary',
     fullWidth = false,
     className = '',
+    href,
     ...props
 }) => {
     const baseStyles = "px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed disabled:shadow-none";
@@ -20,9 +23,19 @@ export const Button: React.FC<ButtonProps> = ({
         outline: "border-2 border-[#107b9d] text-[#107b9d] hover:bg-[#107b9d] hover:text-white disabled:hover:bg-transparent disabled:hover:text-[#107b9d]"
     };
 
+    const combinedStyles = `${baseStyles} ${variants[variant]} ${fullWidth ? 'w-full' : ''} ${className}`;
+
+    if (href) {
+        return (
+            <Link href={href} className={combinedStyles}>
+                {children}
+            </Link>
+        );
+    }
+
     return (
         <button
-            className={`${baseStyles} ${variants[variant]} ${fullWidth ? 'w-full' : ''} ${className}`}
+            className={combinedStyles}
             {...props}
         >
             {children}

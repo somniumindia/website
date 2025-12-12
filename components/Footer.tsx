@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
                 </div>
 
                 <div className="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
-                    <p>&copy; {new Date().getFullYear()} Somnium Management Consulting Pvt. Ltd. All rights reserved.</p>
+                    <p suppressHydrationWarning>&copy; {new Date().getFullYear()} Somnium Management Consulting Pvt. Ltd. All rights reserved.</p>
                     <div className="flex gap-4 mt-4 md:mt-0">
                         <a href="#" className="hover:text-white">Privacy Policy</a>
                         <a href="#" className="hover:text-white">Terms of Service</a>

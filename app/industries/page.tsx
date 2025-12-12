@@ -10,7 +10,7 @@ export default function Industries() {
     const industries = [
         {
             name: "Mining & Mineral Processing",
-            desc: "Comprehensive support for coal, ferrous, & non ferrous metals operations.",
+            desc: "Comprehensive support for coal, ferrous, & non ferrous metal operations.",
             icon: Pickaxe,
             color: "bg-stone-100",
             textColor: "text-stone-600",
@@ -22,7 +22,7 @@ export default function Industries() {
             icon: Truck,
             color: "bg-blue-50",
             textColor: "text-blue-600",
-            imageUrl: "/images/rmh.jpg"
+            imageUrl: "/images/rmh.jpeg"
         },
         {
             name: "Metallurgy & Smelting",
