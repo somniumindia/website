@@ -54,7 +54,7 @@ export default function About() {
             name: 'Abhishek Shukla',
             role: 'Director',
             bio: 'IIT Graduate with 20+ years of experience in the mineral processing industry, covering plant operations, process design, and equipment selection for coal and iron ore. Successfully established and scaled two multinational companies in India. Proven ability to blend technical expertise with strategic business leadership.',
-            imageUrl: "/images/abhishek-shukla.jpeg"
+            imageUrl: "/images/abhishek-shukla.png"
         },
         {
             id: '2',
