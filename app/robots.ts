@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://somnium.india/sitemap.xml',
+        sitemap: 'https://somniumindia.com/sitemap.xml',
     };
 }
